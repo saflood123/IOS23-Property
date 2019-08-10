@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Parse
+import ParseCore
 
 class SignUpVC: UIViewController {
 

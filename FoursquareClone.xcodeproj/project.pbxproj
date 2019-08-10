@@ -3,27 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD50C0152C42DAD00027391A /* ParseLiveQuery in Frameworks */ = {isa = PBXBuildFile; productRef = CD50C0142C42DAD00027391A /* ParseLiveQuery */; };
+		CD50C0172C42DAD00027391A /* ParseObjC in Frameworks */ = {isa = PBXBuildFile; productRef = CD50C0162C42DAD00027391A /* ParseObjC */; };
 		FCB7307C22FD532D00661400 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7307B22FD532D00661400 /* AppDelegate.swift */; };
 		FCB7307E22FD532D00661400 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7307D22FD532D00661400 /* SceneDelegate.swift */; };
-		FCB7308022FD532D00661400 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7307F22FD532D00661400 /* ViewController.swift */; };
+		FCB7308022FD532D00661400 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7307F22FD532D00661400 /* SignUpVC.swift */; };
 		FCB7308322FD532D00661400 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCB7308122FD532D00661400 /* Main.storyboard */; };
 		FCB7308522FD533300661400 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCB7308422FD533300661400 /* Assets.xcassets */; };
 		FCB7308822FD533300661400 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCB7308622FD533300661400 /* LaunchScreen.storyboard */; };
+		FCB7309022FD677A00661400 /* PlacesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7308F22FD677A00661400 /* PlacesVC.swift */; };
+		FCB7309222FD810A00661400 /* AddPlaceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7309122FD810A00661400 /* AddPlaceVC.swift */; };
+		FCB7309422FD824700661400 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7309322FD824700661400 /* MapVC.swift */; };
+		FCB7309622FD874500661400 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7309522FD874500661400 /* DetailsVC.swift */; };
+		FCD4B6AB22FD8C2000BE29EE /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD4B6AA22FD8C2000BE29EE /* PlaceModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FCB7307822FD532D00661400 /* FoursquareClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoursquareClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCB7307B22FD532D00661400 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCB7307D22FD532D00661400 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FCB7307F22FD532D00661400 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCB7307F22FD532D00661400 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		FCB7308222FD532D00661400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FCB7308422FD533300661400 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCB7308722FD533300661400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCB7308922FD533300661400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCB7308F22FD677A00661400 /* PlacesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesVC.swift; sourceTree = "<group>"; };
+		FCB7309122FD810A00661400 /* AddPlaceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlaceVC.swift; sourceTree = "<group>"; };
+		FCB7309322FD824700661400 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		FCB7309522FD874500661400 /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		FCD4B6AA22FD8C2000BE29EE /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD50C0172C42DAD00027391A /* ParseObjC in Frameworks */,
+				CD50C0152C42DAD00027391A /* ParseLiveQuery in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		532963FF489421615D442265 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FCB7306F22FD532C00661400 = {
 			isa = PBXGroup;
 			children = (
 				FCB7307A22FD532D00661400 /* FoursquareClone */,
 				FCB7307922FD532D00661400 /* Products */,
+				532963FF489421615D442265 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,7 +80,12 @@
 			children = (
 				FCB7307B22FD532D00661400 /* AppDelegate.swift */,
 				FCB7307D22FD532D00661400 /* SceneDelegate.swift */,
-				FCB7307F22FD532D00661400 /* ViewController.swift */,
+				FCB7307F22FD532D00661400 /* SignUpVC.swift */,
+				FCB7308F22FD677A00661400 /* PlacesVC.swift */,
+				FCB7309122FD810A00661400 /* AddPlaceVC.swift */,
+				FCB7309322FD824700661400 /* MapVC.swift */,
+				FCB7309522FD874500661400 /* DetailsVC.swift */,
+				FCD4B6AA22FD8C2000BE29EE /* PlaceModel.swift */,
 				FCB7308122FD532D00661400 /* Main.storyboard */,
 				FCB7308422FD533300661400 /* Assets.xcassets */,
 				FCB7308622FD533300661400 /* LaunchScreen.storyboard */,
@@ -83,6 +110,10 @@
 			dependencies = (
 			);
 			name = FoursquareClone;
+			packageProductDependencies = (
+				CD50C0142C42DAD00027391A /* ParseLiveQuery */,
+				CD50C0162C42DAD00027391A /* ParseObjC */,
+			);
 			productName = FoursquareClone;
 			productReference = FCB7307822FD532D00661400 /* FoursquareClone.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +142,9 @@
 				Base,
 			);
 			mainGroup = FCB7306F22FD532C00661400;
+			packageReferences = (
+				CD50C0132C42DAD00027391A /* XCRemoteSwiftPackageReference "Parse-SDK-iOS-OSX" */,
+			);
 			productRefGroup = FCB7307922FD532D00661400 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,8 +172,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCB7308022FD532D00661400 /* ViewController.swift in Sources */,
+				FCB7308022FD532D00661400 /* SignUpVC.swift in Sources */,
+				FCD4B6AB22FD8C2000BE29EE /* PlaceModel.swift in Sources */,
+				FCB7309422FD824700661400 /* MapVC.swift in Sources */,
 				FCB7307C22FD532D00661400 /* AppDelegate.swift in Sources */,
+				FCB7309022FD677A00661400 /* PlacesVC.swift in Sources */,
+				FCB7309622FD874500661400 /* DetailsVC.swift in Sources */,
+				FCB7309222FD810A00661400 /* AddPlaceVC.swift in Sources */,
 				FCB7307E22FD532D00661400 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,13 +324,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7SH627DBA4;
+				DEVELOPMENT_TEAM = D7XRDCU77D;
 				INFOPLIST_FILE = FoursquareClone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.atilsamancioglu.FoursquareClone;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sfloodFoursquareClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -303,13 +342,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7SH627DBA4;
+				DEVELOPMENT_TEAM = D7XRDCU77D;
 				INFOPLIST_FILE = FoursquareClone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.atilsamancioglu.FoursquareClone;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sfloodFoursquareClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -338,6 +377,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CD50C0132C42DAD00027391A /* XCRemoteSwiftPackageReference "Parse-SDK-iOS-OSX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/parse-community/Parse-SDK-iOS-OSX";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CD50C0142C42DAD00027391A /* ParseLiveQuery */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CD50C0132C42DAD00027391A /* XCRemoteSwiftPackageReference "Parse-SDK-iOS-OSX" */;
+			productName = ParseLiveQuery;
+		};
+		CD50C0162C42DAD00027391A /* ParseObjC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CD50C0132C42DAD00027391A /* XCRemoteSwiftPackageReference "Parse-SDK-iOS-OSX" */;
+			productName = ParseObjC;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FCB7307022FD532C00661400 /* Project object */;
 }
